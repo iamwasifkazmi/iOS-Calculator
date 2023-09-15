@@ -13,6 +13,7 @@
 		52796B442AB2E7E500F85BC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52796B422AB2E7E500F85BC8 /* Main.storyboard */; };
 		52796B462AB2E7E600F85BC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52796B452AB2E7E600F85BC8 /* Assets.xcassets */; };
 		52796B492AB2E7E600F85BC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52796B472AB2E7E600F85BC8 /* LaunchScreen.storyboard */; };
+		52796B512AB2F71E00F85BC8 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52796B502AB2F71E00F85BC8 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		52796B452AB2E7E600F85BC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52796B482AB2E7E600F85BC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52796B4A2AB2E7E600F85BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52796B502AB2F71E00F85BC8 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				52796B3C2AB2E7E500F85BC8 /* AppDelegate.swift */,
+				52796B502AB2F71E00F85BC8 /* RoundButton.swift */,
 				52796B3E2AB2E7E500F85BC8 /* SceneDelegate.swift */,
 				52796B402AB2E7E500F85BC8 /* ViewController.swift */,
 				52796B422AB2E7E500F85BC8 /* Main.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				52796B412AB2E7E500F85BC8 /* ViewController.swift in Sources */,
 				52796B3D2AB2E7E500F85BC8 /* AppDelegate.swift in Sources */,
+				52796B512AB2F71E00F85BC8 /* RoundButton.swift in Sources */,
 				52796B3F2AB2E7E500F85BC8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +298,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +326,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
